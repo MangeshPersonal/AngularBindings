@@ -1,0 +1,34 @@
+
+{{title}}
+<table>
+  <tr>
+    <td>
+      <strong>image using the property Binding using interpollation</strong> 
+    </td>
+    <td>
+      <img src="{{imagepath}}" width="100px" height="100px" alt="image not found">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong><strong>Element Property binding using [] </strong> </strong> 
+    </td>
+    <td>
+      <img [src]="imagepath" width="100px" height="100px" alt="image not found">
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+     <strong>Element Property binding using Binding Prefix </strong> 
+    </td>
+    <td>
+      <img bind-src="imagepath" width="100px" height="100px" alt="image not found">
+    </td>
+  </tr>
+</table>
+
+<p>
+<button [disabled]="status">Click Me</button>
+
+</p>

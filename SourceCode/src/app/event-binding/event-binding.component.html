@@ -1,0 +1,16 @@
+
+<hr>
+<h3>
+  Event Bindings
+</h3>
+<p>
+  <button (click)="logevent()">Say Hi </button>
+</p>
+<p>
+  <input type="text" #txtUserName><br>
+  <input type="password" #txtpassword><br>
+  <input type="Email" #txtEmail><br>
+
+  <button (click)="SendData(txtUserName.value,txtpassword.value,txtEmail.value)">Send Data</button>
+  <button on-click="SendData(txtUserName.value,txtpassword.value,txtEmail.value)">Click to sendData</button>
+</p>
