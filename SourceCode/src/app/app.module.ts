@@ -5,13 +5,15 @@ import{FormsModule} from '@angular/Forms'
 import { AppComponent } from './app.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertybindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
